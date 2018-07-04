@@ -1,0 +1,214 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.vibor{
+    z-index: 2;
+    width: 300px;
+    height: 550px;
+    border: 1px solid;
+    border-left: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    position: absolute;
+    top: 75px;
+    left: 0;
+    background: #ffffff;
+}
+.close{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    left: 260px;
+    top: 10px;
+    background: url("../images/arrow-left.svg") no-repeat!important;
+    border: none!important;
+    outline: none;
+}
+.close:hover{
+    cursor: pointer;
+}
+.vibor_komnat{
+    margin-top: 5px;
+    margin-left: 30px;
+
+}
+.vibor_komnat p{
+    font-size: 18px;
+}
+.vibor_komnat input{
+    margin-top: 5px;
+
+}
+.vibor_komnat input[type="radio"]{
+    transform:scale(1.2);
+}
+.vibor_komnat input[type="submit"]{
+    width: 150px;
+    height: 30px;
+    font-size: 17px;
+    border-radius: 5px;
+    border: none;
+}
+.vibor_komnat label{
+    font-size: 17px;
+}
+.parametr_komnat{
+    margin-top: 5px;
+    margin-left: 30px;
+    display: none;
+}
+.parametr_komnat p{
+    font-size: 18px;
+}
+.parametr_komnat input{
+    margin-top: 5px;
+    width: 150px;
+    height: 30px;
+    font-size: 17px;
+    border-radius: 5px;
+    z-index: 111;
+}
+.open_vibor{
+    z-index: 2;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 75px;
+    left: 0;
+    border: 1px solid;
+    border-radius: 5px;
+    display: none;
+    background: #ffffff;
+}
+.open{
+    width: 25px;
+    height: 25px;
+    background: url("../images/arrow-right.svg") no-repeat;
+    border: none;
+    outline: none;
+    position: relative;
+    top: 5px;
+    left: 5px;
+
+}
+.open:hover{
+    cursor: pointer;
+}
+.openD{
+    position: absolute;
+    top: 75px;
+    right: 0;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 35px;
+    height: 35px;
+    display: none;
+    z-index: 2;
+    background: #ffffff;
+}
+.open_datchik{
+    width: 25px;
+    height: 25px;
+    background: url("../images/arrow-left.svg") no-repeat;
+    border: none;
+    outline: none;
+    position: relative;
+    top: 5px;
+    right: -7px;
+}
+.open_datchik:hover{
+    cursor: pointer;
+}
+.datchik{
+    z-index: 2;
+    width: 300px;
+    height: 550px;
+    position: absolute;
+    top: 75px;
+    right: 0;
+    padding-left: 10px;
+    border: 1px solid;
+    background: #ffffff;
+    border-radius: 5px;
+}
+.vibor_datchik{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.vibor_datchik select{
+    margin-top: 5px;
+    width: 270px;
+    height: 30px;
+    border: 1px solid;
+    outline: none;
+    border-radius: 5px;
+
+}
+.vibor_datchik p{
+    font-size: 18px;
+}
+.close-datchik{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    right: -10px;
+    top: 10px;
+    background: url("../images/arrow-right.svg") no-repeat;
+    border: none;
+    outline: none;
+}
+.close-datchik:hover{
+    cursor: pointer;
+}
+.datchiki{
+    width: 270px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.datchik_position{
+    width: 270px;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+canvas{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+#back{
+    margin-top: 5px;
+    width: 150px;
+    height: 30px;
+    font-size: 17px;
+    border-radius: 5px;
+}
+#clear{
+    margin-top: 5px;
+    width: 150px;
+    height: 30px;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+
+
